@@ -1,0 +1,232 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <title>Bulbasaur</title>
+    <style>
+        p {
+            font-family: Tahoma;
+            font-size: 20px;
+        }
+
+        .desc {
+            color: black;
+        }
+
+        .info {
+            color: white;
+            width: 70%;
+            height: 35%;
+            float: left;
+            border-radius: 10px;
+            background-color: #30a7d7;
+            padding: 15px 0px 0px 0px;
+        }
+
+        .info ul {
+            list-style: none;
+        }
+
+        .info ul li p {
+            float: left;
+            margin: 0px 5px 0px 5px;
+            font-size: 100%;
+        }
+
+        .badge-plant {
+            background-color: #9bcc50;
+            padding: 5px 25px;
+        }
+
+        .badge-veneno {
+            background-color: #b97fc9;
+            margin: 0px 0px 0px 10px;
+            padding: 5px 25px;
+        }
+
+        .badge-fuego {
+            background-color: #fd7d24;
+            margin: 0px 0px 0px 10px;
+            padding: 5px 25px;
+        }
+
+        .badge-ps {
+            background-color: #f366b9;
+            margin: 0px 0px 0px 10px;
+            padding: 5px 25px;
+        }
+
+        .badge-volador {
+
+            background-image: linear-gradient(#3ec8f0 50%, #bdb9b8 50%);
+            margin: 0px 0px 0px 10px;
+            padding: 5px 25px;
+        }
+
+        .badge-hielo {
+
+            background-color: #3ec8f0;
+            margin: 10px 0px 0px 10px;
+            padding: 5px 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-2 col-md-4 col-lg-12 text-center">
+                <p class="h1">
+                    Bulbasaur
+                    <small class=" h3 text-muted">
+                        N°.001
+                    </small>
+                </p>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-2 col-md-4 col-lg-5 offset-md-1">
+                <img class="img-thumbnail bg-light" width="600px"
+                    src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="">
+            </div>
+            <div class="col-sm-2 col-md-4 col-lg-6">
+                <p>
+                    Este Pokémon nace con una semilla en el lomo, que<br>brota con el paso del tiempo.
+                </p>
+                <div class="row">
+                    <div class="col-sm-2 col-md-4 col-lg-5">
+                        <p>
+                            Versiones
+                        </p>
+                    </div>
+                </div>
+                <div class="row info">
+                    <div class="col-sm-2 col-md-4 col-lg-5">
+                        <ul>
+                            <li>
+                                <p>Altura</p>
+                                <br>
+                                <p class="desc">0,7 m</p>
+                            </li>
+                            <br>
+                            <li>
+                                <p>Peso</p>
+                                <br>
+                                <p class="desc">6,9 kg</p>
+                            </li>
+                            <br>
+                            <li>
+                                <p>Sexo</p>
+                                <br>
+                                <p class="desc ">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-gender-male" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M9.5 2a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5v5a.5.5 0 0 1-1 0V2.707L9.871 6.836a5 5 0 1 1-.707-.707L13.293 2H9.5zM6 6a4 4 0 1 0 0 8 4 4 0 0 0 0-8z" />
+                                    </svg>
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-gender-female" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M8 1a4 4 0 1 0 0 8 4 4 0 0 0 0-8zM3 5a5 5 0 1 1 5.5 4.975V12h2a.5.5 0 0 1 0 1h-2v2.5a.5.5 0 0 1-1 0V13h-2a.5.5 0 0 1 0-1h2V9.975A5 5 0 0 1 3 5z" />
+                                    </svg>
+                                </p>
+                            </li>
+                            <br>
+                        </ul>
+                    </div>
+                    <div class="col-sm-2 col-md-4 col-lg-5">
+                        <ul>
+                            <li>
+                                <p>Categor&iacute;a</p>
+                                <br>
+                                <p class="desc">Semilla</p>
+                            </li>
+                            <br>
+                            <li>
+                                <p>Habilidad</p>
+                            </li>
+                            <br>
+                            <li>
+                                <p class="desc">Espesura</p>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                    class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
+                                </svg>
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-2 col-md-4 col-lg-6">
+                    <div class="row">
+                        <p><br>Tipo</p>
+                    </div>
+                    <span class="badge badge-plant badge-success">Planta</span>
+                    <span class="badge badge-veneno badge-success">Venero</span>
+                </div>
+                <div class="col-sm-2 col-md-4 col-lg-8">
+                    <div class="row">
+                        <p><br>Debilidad</p>
+                    </div>
+                    <span class="badge badge-fuego badge-success">Fuego</span>
+                    <span class="badge badge-ps badge-success">Ps&iacute;quico</span>
+                    <span class="badge badge-volador badge-success">Volador</span>
+                </div>
+                <div class="col-sm-2 col-md-4 col-lg-6">
+                    <span class="badge badge-hielo badge-success">Hielo</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
